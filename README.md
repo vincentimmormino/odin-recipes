@@ -1,1 +1,2 @@
 # odin-recipes
+In this project, I will be designing a basic recipes website. It will look quite ... bare, because as of now, there will not be any CSS involved. However, once this project is finished, I will have demonstrated my ability to create, organize, and link to multiple pages, as well as my ability to effectively use basic formatting tags and accessibility tools.
