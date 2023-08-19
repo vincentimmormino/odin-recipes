@@ -10,9 +10,11 @@ body {
 .title {
     background-color:darkcyan;
     padding: 8px;
-    width: 300px;
+    min-width: 300px;
+    width: max-content;
     color: white;
     margin-bottom: 0;
+    padding-right: 50px;
 }
 .content {
     margin-top: 16px;
@@ -23,9 +25,7 @@ body {
 .content::after {
     clear: both;
 }
-.intro {
-    margin-left: 16px;
-}
+
 .recipe-img, .listen {
     float: left;
     margin-right: 8px;
