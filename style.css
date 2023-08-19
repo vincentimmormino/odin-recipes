@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-size: 18px;
+}
+
+.title {
+    background-color:darkcyan;
+    padding: 8px;
+    width: 300px;
+    color: white;
+    margin-bottom: 0;
+}
+.content {
+    margin-top: 16px;
+    width: 800px;
+    margin-right: auto;
+    line-height: 150%;
+}
+.content::after {
+    clear: both;
+}
+.intro {
+    margin-left: 16px;
+}
+.listen {
+    width: 150px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 8px;
+}
+.subheader {
+    margin-bottom: 0;
+}
+.subheader + ol {
+    margin-top: 0;
+    line-height: 150%;
+}
