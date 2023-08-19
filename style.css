@@ -26,16 +26,24 @@ body {
 .intro {
     margin-left: 16px;
 }
+.recipe-img, .listen {
+    float: left;
+    margin-right: 8px;
+    border: 1px solid black;
+}
 .listen {
     width: 150px;
-    float: left;
-    border: 1px solid black;
-    margin-right: 8px;
+}
+.recipe-img {
+    width: 200px;
 }
 .subheader {
     margin-bottom: 0;
 }
-.subheader + ol {
+.subheader + ol, .subheader + ul {
     margin-top: 0;
     line-height: 150%;
+}
+.home-link {
+    padding-bottom: 20px;
 }
